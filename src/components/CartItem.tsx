@@ -40,7 +40,7 @@ export function CartItem({ id, quantity }: CartItemProps) {
         size="sm"
         onClick={() => removeFromCart(item.id)}
       >
-        &times
+        &times;
       </Button>
     </Stack>
   );
